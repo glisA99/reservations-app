@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-segment {
+  width: 100% !important;
+  height: auto !important;
+  position: sticky !important;
+  padding: 2px !important;
+  background-color:lightsteelblue !important;
+  margin-bottom: 0% !important;
+}
+
+.navbar-header {
+  border-right: 1px solid midnightblue !important;
+  border-top-right-radius: 0% !important;
+  border-bottom-right-radius: 0% !important;
+}
+
+a {
+  all: none !important;
+}
+
+.margined-menu {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.navbar-item {
+  border: 1px solid midnightblue !important;
+  color: black !important;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+  background-color: midnightblue !important;
+  color: white !important;
+}
+
+.main-grid {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: whitesmoke !important;
+}
+
+.reservations-segment {
+  margin: 20px !important;
+  padding-top: 7% !important;
 }
